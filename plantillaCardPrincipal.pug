@@ -1,0 +1,9 @@
+each dog in dogs
+    div.card
+        div.img
+            img(src=dog.imagen width='100%' height='100%')
+        div.contexto
+            h4= dog.nombre
+            p= dog.descripcion.substring(0,149)
+            a(href='#modal') Leer mas
+            h5.ocultarid=dog._id

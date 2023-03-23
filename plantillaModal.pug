@@ -1,0 +1,14 @@
+div.imgmodal
+    img(src=dog.imagen width='100%' height='100%')
+div.container-text
+    div.modalReadNombre
+        h2.h2ModalReadNombre="Nombre: "
+        h2.h2ModalReadNombreD=" "+dog.nombre
+    div.modalReadNombre
+        h2.h2ModalReadNombre="Raza: "
+        h2.h2ModalReadNombreD=" "+dog.raza
+    h2.h2ModalReadNombre="Descripcion:"
+    p=dog.descripcion
+    a.btn-close-popup(href='#')="X"
+    button="touch me"
+    

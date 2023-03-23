@@ -1,0 +1,20 @@
+{
+  "name": "doglovers",
+  "version": "1.0.0",
+  "scripts": {
+    "doglovers": "node app.js",
+    "compilarPlantilla": "pug -c -D -n plantillaModal -o public plantillaModal.pug",
+    "compilarPlantillaCards": "pug -c -D -n plantillaModalCardPrincipal -o public plantillaCardPrincipal.pug"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "mongoose": "^6.9.1",
+    "moongose": "^1.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}

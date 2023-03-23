@@ -1,0 +1,9 @@
+APP.USE + 4 PARAMS MANEJO DE ERRORES MENOS DE 4 CONSIDERA UNA FUNCION NORMAL  L 11-14
+hacer res si o si o con finally
+next -> para continuar el proceso y seguir encadeando con las procesos que correspondan
+next(); -> sigue buscando una funcion para cotinuar el proceso
+ git restore *
+
+
+
+//TODO utilizar un solo div que sea un flex wrap  -> e ir añadiendo dinamicanmente las cartas 
